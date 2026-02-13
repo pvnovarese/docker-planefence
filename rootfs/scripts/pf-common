@@ -291,7 +291,7 @@ template_replace() {
 CHK_SCREENSHOT_ENABLED() {
   # Check if screenshot additions are enabled
   local screenshothost
-  local screenshoturl="$PF_SCREENSHOTURL"
+  local screenshoturl="$SCREENSHOTURL"
   if [[ -z "$screenshoturl" ]]; then
     screenshoturl="$(sed -n 's/\(^\s*PF_SCREENSHOTURL=\)\(.*\)/\2/p' /usr/share/planefence/persist/planefence.config)"
   fi
