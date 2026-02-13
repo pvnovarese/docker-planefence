@@ -19,7 +19,7 @@
 shopt -s extglob
 
 source /scripts/pf-common
-source /usr/share/planefence/persist/planefence.config
+source /usr/share/planefence/plane-alert.conf
 
 # shellcheck disable=SC2034
 DEBUG=false
